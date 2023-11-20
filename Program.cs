@@ -6,6 +6,7 @@ using DummyDataWithFaker.Services;
 
 //var user = new UserProfile();
 
+
 //user.Name = Faker.Name.FullName(Faker.NameFormats.WithPrefix);
 
 //user.Followers = Faker.RandomNumber.Next(0, 1000);
@@ -17,6 +18,6 @@ using DummyDataWithFaker.Services;
 foreach ( var user in GenerateDataService.UserProfiles())
 {
 
-
+    Console.WriteLine(user.ToString());
 
 }
